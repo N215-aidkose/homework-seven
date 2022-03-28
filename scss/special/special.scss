@@ -1,6 +1,6 @@
 .special {
   max-width: $nav-width;
-  margin: 56px auto 0 auto;
+  margin: 56px auto 100px auto;
   .special-header {
     font-family: ProxThin;
     font-size: 30px;
@@ -13,7 +13,7 @@
     margin-top: 8px;
   }
   .special-offers {
-    width: 565px;
+    width: 525px;
     height: 287px;
     // background-color: yellow;
     margin-top: 36px;
@@ -22,7 +22,7 @@
     align-items: center;
 
     .special-pic {
-      max-width: 200px;
+      width: 200px;
       height: 100%;
       // background-color: green;
 
@@ -33,7 +33,7 @@
       }
     }
     .special-text {
-      width: 350px;
+      width: 290px;
       height: 100%;
       // background-color: green;
       position: relative;
@@ -74,7 +74,14 @@
         position: absolute;
         bottom: 0px;
         left: 0px;
+        cursor: pointer;
       }
     }
+  }
+}
+
+@media all and (max-width: $home-form-width) {
+  .special {
+    width: 90%;
   }
 }
