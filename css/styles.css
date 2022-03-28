@@ -366,7 +366,6 @@ nav .links span {
   margin: 0 auto;
 }
 .app .tour-info .tour-info-hero {
-  background-color: black;
   margin-top: 49px;
   overflow: hidden;
   position: relative;
@@ -377,7 +376,6 @@ nav .links span {
   height: 413px;
   object-fit: cover;
   overflow: hidden;
-  opacity: 0.6;
   margin-bottom: -5px;
 }
 .app .tour-info .tour-info-hero .hero-header-text {
