@@ -1,0 +1,111 @@
+.contact {
+  max-width: $nav-width;
+  margin: $center;
+
+  .contact-header {
+    font-family: ProxThin;
+    font-size: 30px;
+    color: $site-black;
+    margin-top: 56px;
+  }
+  .contact-underline {
+    width: 159px;
+    height: 2px;
+    background-color: $site-black;
+    margin-top: 8px;
+  }
+  .contact-form {
+    max-width: $nav-width;
+    height: 442px;
+    // background-color: yellow;
+    margin-top: 51px;
+    display: flex;
+    justify-content: space-between;
+    .contact-map {
+      width: 400px;
+      height: 100%;
+
+      iframe {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .contact-input-forms {
+      width: 530px;
+      input {
+        width: 100%;
+        height: 60px;
+        padding-left: 20px;
+        border: none;
+        background-color: #f5f5f5;
+        font-family: Gill;
+        font-size: 16px;
+        margin-bottom: 21px;
+      }
+      .message {
+        width: 100%;
+        height: 199px;
+        padding-left: 20px;
+        border: none;
+        background-color: #f5f5f5;
+        font-family: Gill;
+        font-size: 16px;
+        margin-bottom: 21px;
+      }
+    }
+  }
+  .contact-form-bottom {
+    display: flex;
+    justify-content: space-between;
+    .contact-address {
+      max-width: 400px;
+      min-height: 161px;
+      //   background-color: aqua;
+      margin-top: 34px;
+      margin-bottom: 100px;
+
+      p {
+        font-family: Gill;
+        font-size: 18px;
+        color: $site-black;
+        margin-bottom: -2px;
+      }
+    }
+    .button-holder {
+      height: 60px;
+      //   background-color: green;
+      margin-top: 21px;
+      .contact-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 168px;
+        height: 100%;
+        background-color: $site-blue;
+        color: white;
+        font-family: Gill;
+        font-size: 16px;
+        cursor: pointer;
+        margin-right: 362px;
+      }
+    }
+  }
+}
+
+@media all and (max-width: $home-form-width) {
+  .contact {
+    width: 90%;
+    .contact-form {
+      .contact-map {
+        margin-right: 20px;
+        iframe {
+        }
+      }
+    }
+    .contact-form-bottom {
+      .button-holder {
+        width: 384px;
+      }
+    }
+  }
+}
