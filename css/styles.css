@@ -1128,5 +1128,83 @@ nav .links span {
     width: 90%;
   }
 }
+.blog {
+  max-width: 980px;
+  margin: 0 auto;
+  margin-top: 56px;
+}
+.blog .blog-header {
+  font-family: ProxThin;
+  font-size: 30px;
+  color: black;
+}
+.blog .blog-underline {
+  width: 106px;
+  height: 2px;
+  background-color: black;
+  margin-top: 8px;
+  margin-bottom: 32px;
+}
+.blog .blog-post {
+  width: 100%;
+  height: 360px;
+  margin-bottom: 100px;
+}
+.blog .blog-post .blog-top {
+  display: flex;
+  justify-content: space-between;
+}
+.blog .blog-post .blog-date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 60px;
+  height: 60px;
+  background-color: #79addc;
+  margin-right: 20px;
+}
+.blog .blog-post .blog-date p {
+  font-size: 22px;
+  font-family: Gill;
+  color: white;
+  margin-bottom: -4px;
+}
+.blog .blog-post .blog-date h6 {
+  font-size: 12px;
+  font-family: Gill;
+  color: white;
+}
+.blog .blog-post .blog-image {
+  width: 900px;
+  height: 260px;
+}
+.blog .blog-post .blog-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.blog .blog-post .blog-description {
+  margin-left: 80px;
+}
+.blog .blog-post .blog-description .blog-black-text {
+  font-size: 15px;
+  font-family: Gill;
+  color: black;
+  margin-top: 20px;
+}
+.blog .blog-post .blog-description .blog-blue-text {
+  width: 380px;
+  height: 60px;
+  font-size: 13px;
+  font-family: Gill;
+  color: #79addc;
+}
+
+@media all and (max-width: 800px) {
+  .blog {
+    width: 90%;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
